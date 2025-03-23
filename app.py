@@ -94,10 +94,10 @@ def save_transcripts_with_limit(all_transcripts, max_words=500000):
             start_idx = end_idx
 
 # Main code
-link = 'https://youtube.com/playlist?list=PLeHoly7hGE4XztXJh5hA9P_zneVclUxqR&si=WtCwmxSfk5_lKX0T'
+link = 'YOUR-YOUTUBE-LINK-HERE'
 
 # You need to get an API key from Google Cloud Console
-API_KEY = "AIzaSyAllwhYA8Ws-5hu9-SJ5616h2MEPfPFrHY"  # Replace with your actual API key
+API_KEY = "YOUR-API-KEY-HERE"  # Replace with your actual API key
 
 # Extract playlist ID
 playlist_id_match = re.search(r'list=([^&]+)', link)
